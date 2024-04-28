@@ -6,3 +6,6 @@ edition = "2021"
 [lib]
 name = "activity"
 path = "src/dir/activitylib.rs"
+
+[dependencies]
+thiserror = "2"
