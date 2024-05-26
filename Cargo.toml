@@ -1,5 +1,5 @@
 [package]
-name = "hello"
+name = "lessons"
 version = "0.1.0"
 edition = "2021"
 
@@ -9,3 +9,6 @@ path = "src/dir/activitylib.rs"
 
 [dependencies]
 thiserror = "2"
+crossbeam-channel = "*"
+colored = "*"
+parking_lot = "0.12.3"
